@@ -4,6 +4,7 @@ import Hero from './assets/components/hero/Hero'
 
 
 import Nav from './assets/components/nav/Nav'
+import UserInfo from './assets/components/userInfo/UserInfo'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
 
       <Nav></Nav>
       <Hero></Hero>
+      <UserInfo></UserInfo>
       
   
 
