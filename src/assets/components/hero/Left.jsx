@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Play } from 'lucide-react';
 const Left = () => {
     return (
         <div className='my-auto mx-8 px-6'>
@@ -12,8 +12,9 @@ const Left = () => {
                 software—all in one place. Start creating faster today.
                 Explore Products
             </p>
-            <button className="btn font-light rounded-4xl bg-violet-800 text-amber-50">Explore Products</button>
-            <button className="btn font-light rounded-4xl bg-violet-800 text-amber-50">Explore Products</button>
+            <button className="btn font-light rounded-full bg-violet-800 text-amber-50 mr-4">Explore Products</button>
+            <button className="btn font-light rounded-4xl bg-violet-800 text-amber-50"><Play/> Watch Demo</button>
+    
         </div>
     );
 };
